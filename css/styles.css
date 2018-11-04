@@ -33,7 +33,24 @@ body  {
   background: #ccc;
 }
 
+#social{
+	list-style-type:none;
+	overflow:hiden;
+	float:left;
+	margin-right:30px;
+	margin-top:5px;
+}
 
+#social li .icon{
+	padding:5px;
+	height:30px;
+	width:30px;
+}
+
+#social li {
+	float:left;
+	display:block;
+}
 
 
 
