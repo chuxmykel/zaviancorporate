@@ -7,6 +7,8 @@ body  {
 .header {
 	margin-bottom: 6%;
 }
+
+
 .header .search-container {
   float: right;
 }
@@ -55,12 +57,26 @@ body  {
 	display:block;
 }
 
-#page-content{
+#page-content {
 	width: 100%;
+	height: 100%;
 }
 
 #page-content img{
+	height:24%; 
+	width:30%;
 	float: left;
+}
+#page-content .iframe-container{
+	overflow: hidden;
+	padding-top:5%;
+}
+#page-content .iframe-container iframe{
+	border:none; 
+	height:100%;
+	float:right;
+	top: 0;
+	width:70%;
 }
 
 
