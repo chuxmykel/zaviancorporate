@@ -4,6 +4,9 @@ body  {
 	color:white;
 }
 
+.header {
+	margin-bottom: 6%;
+}
 .header .search-container {
   float: right;
 }
@@ -43,13 +46,21 @@ body  {
 
 #social li .icon{
 	padding:5px;
-	height:30px;
-	width:30px;
+	height:32px;
+	width:32px;
 }
 
 #social li {
 	float:left;
 	display:block;
+}
+
+#page-content{
+	width: 100%;
+}
+
+#page-content img{
+	float: left;
 }
 
 
