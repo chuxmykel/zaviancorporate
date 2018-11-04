@@ -1,5 +1,6 @@
 body  {
-    background-image: url('file:///C:/cygwin64/home/CHUx%20MyKeL/websites/zaviancorporate.com/img/background.jpg');
+    /*background-image: url('file:///C:/cygwin64/home/CHUx%20MyKeL/websites/zaviancorporate.com/img/background.jpg');*/
+	background-image: url('img/background.jpg');
 	width:100%;
 	height:100%;
 }
