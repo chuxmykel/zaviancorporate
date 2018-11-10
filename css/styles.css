@@ -1,6 +1,5 @@
 body  {
-    /*background-image: url('file:///C:/cygwin64/home/CHUx%20MyKeL/websites/zaviancorporate.com/img/background.jpg');*/
-	background-image: url('../img/bck.jpg');
+    background-image: url('../img/bck.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:center center;
@@ -9,7 +8,7 @@ body  {
 
 .header {
 	margin-bottom: 6%;
-	background-color:#7fffff7f;
+	background-color:#7fffff32;
 }
 
 
@@ -47,7 +46,7 @@ body  {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: 7fffffe6;
 }
 
 .header .topnav li a {
@@ -56,6 +55,8 @@ body  {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: helvetica;
+  font-size: 18px;
 }
 
 .header .topnav li{
@@ -68,17 +69,17 @@ body  {
 }
 
 .header .topnav li a:hover {
-    background-color: #555;
+    background-color: #7ffff964;
     color: white;
 }
 
 .header .topnav li a.active {
-    background-color: #00f9f9;
-    color: #a87d4c;
+    background-color: #00f9f964;
+    color: white;
 }
 
 .header .topnav li a.active:hover {
-    background-color: #7ffff9;
+    background-color: #7ffff964;
     color: white;
 }
 
