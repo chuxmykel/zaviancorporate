@@ -49,6 +49,17 @@ body  {
   background-color: 7fffffe6;
 }
 
+.header .topnav li#faqs a{
+  display: block;
+  color: #ff6f6f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 18px;
+  text-transform:none;
+}
+
 .header .topnav li a {
   display: block;
   color: white;
@@ -57,12 +68,20 @@ body  {
   text-decoration: none;
   font-family: helvetica;
   font-size: 18px;
+  text-transform:uppercase;
 }
 
 .header .topnav li{
 	float: left;
 	border-right: 1px solid #bbb;
 }
+
+.header .topnav li#faqs{
+	float:right;
+	border-left:1px solid #bbb;
+}
+
+
 
 .header .topnav li:last-child{
 	border-right: none;
@@ -112,46 +131,29 @@ body  {
 	width:30%;
 	float: left;
 }
-#page-content .iframe-container{
-	overflow: hidden;
-	padding-top:5%;
-}
-#page-content .iframe-container iframe{
-	border:none; 
-	height:100%;
-	float:right;
-	top: 0;
-	width:70%;
+
+#page-content h1{
+	color:#00f9f9;
+	font-family: Helvetica;
+	font-size:27px;
+	text-transform: uppercase;
+	margin-left: 38.1%;
 }
 
-
-
-
-
-
-
-
-
-/*.header{
-	
+#page-content h2{
+	color:#00f9f9;
+	font-family: Helvetica;
+	margin-left: 38.1%;
 }
 
-.header input[type=text] {
-	background-color:#ffffffff;
-	color:#000000;
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}*/
- 
-/*.section {
-	height: 200px;
-	width: 100%;
-	margin: 10px;
-	background-color: #222222a0;
-    color: white;
-    padding: 20px;
-}*/
+#page-content .paragraph-container{
+	width:85%;
+	/*background-color: #ffffff7f;*/
+}
+
+#page-content .paragraph-container p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	margin-left: 45%;
+}
