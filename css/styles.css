@@ -1,13 +1,19 @@
 body  {
-  background-image: url('../img/bck.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image: url('../img/blck.jpg');
+	/*background-size: cover;
+	/*background-repeat: no-repeat;*/
 	background-position:center center;
 	color:white;
 }
 
+p{
+  color: white;
+  font-family: 'Josefin Slab', serif;;
+  font-size: 20px;
+}
+
 .header {
-	margin-bottom: 6%;
+	/*margin-bottom: 6%;*/
 	background-color:#7fffff32;
 }
 
@@ -55,8 +61,8 @@ body  {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: helvetica;
-  font-size: 18px;
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
   text-transform:none;
 }
 
@@ -66,8 +72,8 @@ body  {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: helvetica;
-  font-size: 18px;
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
   text-transform:uppercase;
 }
 
@@ -134,38 +140,67 @@ body  {
 
 #page-content h1{
 	color:#00f9f9;
-	font-family: Helvetica;
+	font-family: 'Bad Script', cursive;
 	font-size:27px;
 	text-transform: uppercase;
-	margin-left: 38.1%;
 }
 
-#page-content h2{
-	color:#00f9f9;
-	font-family: Helvetica;
-	margin-left: 38.1%;
+#page-content p{
+  color: white;
+	font-family: 'Josefin Slab', serif;
+	font-size:20px;
 }
+
+/*#page-content h2{
+	color:#00f9f9;
+	font-family: 'Bad Script', cursive;;
+	margin-left: 38.1%;
+}*/
 
 #page-content .paragraph-container{
-	width:85%;
+	width: 80%;
+  justify-content: center;
 	/*background-color: #ffffff7f;*/
 }
 
 #page-content .paragraph-container p{
 	color: white;
-	font-family: sans-serif;
-	font-size: 16px;
-	margin-left: 45%;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+/*	margin-left: 45%;*/
+}
+
+#page-content h2{
+	color:#00f9f9;
+	font-family: 'Bad Script', cursive;
+  font-size:23px;
+/*	margin-left: 45%;*/
+}
+
+#page-content .paragraph-container h4{
+	color:#00f9f9;
+	font-family: 'Bad Script', cursive;
+  font-size:18px;
+/*	margin-left: 45%;*/
+}
+
+#page-content .paragraph-container ul{
+	color: white;
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+/*	margin-left: 45%;*/
 }
 
 #page-content .paragraph-container .service{
 	color: #00f9f9;
-	font-family: helvetica;
+	font-family: 'Bad Script', cursive;
 	font-size: 22px;
-  margin-left: 45%;
+  /*margin-left: 45%;*/
   margin-right: 0;
 }
 
 #page-content .paragraph-container .service-title{
-	margin-left: 20%;
+  color: #00f9f9;
+	font-family: 'Bad Script', cursive;
+	font-size: 20px;
 }
