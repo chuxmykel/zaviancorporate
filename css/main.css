@@ -28,19 +28,19 @@
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-* {
+/** {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
-}
+}*/
 
-body, html {
+/*body, html {
 	height: 100%;
-	/*font-family: Poppins-Regular, sans-serif;*/
-}
+	/*font-family: Poppins-Regular, sans-serif;
+}*/
 
 /*---------------------------------------------*/
-a {
+/*a {
 	font-family: Poppins-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -58,10 +58,10 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-}
+}*/
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
+/*h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 }
 
@@ -73,7 +73,7 @@ p {
 	margin: 0px;
 }
 
-ul, li {
+/*ul, li {
 	margin: 0px;
 	list-style-type: none;
 }
@@ -143,9 +143,9 @@ button:hover {
 	cursor: pointer;
 }
 
-iframe {
+/*iframe {
 	border: none !important;
-}
+}*/
 
 
 /*///////////////////////////////////////////////////////////////*/
@@ -222,7 +222,7 @@ legend {
 
 .contact100-form-title-1 {
   font-family: Poppins-Bold;
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   line-height: 1.2;
   text-align: center;
@@ -231,7 +231,7 @@ legend {
 
 .contact100-form-title-2 {
   font-family: Poppins-Regular;
-  font-size: 15px;
+  font-size: 18px;
   color: #fff;
   line-height: 1.5;
   text-align: center;
@@ -247,7 +247,8 @@ legend {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(54,84,99,0.5);
+  /*background-color: rgba(54,84,99,0.5);*/
+  background-color: rgba(100,84,99,0.5);
 }
 
 
@@ -285,8 +286,9 @@ legend {
   text-align: right;
   position: absolute;
   top: 14px;
-  left: -105px;
-  width: 80px;
+  /*left: -105px;*/
+  left: -110%;
+  width: 100%;
 
 }
 
@@ -337,7 +339,7 @@ input.input100 {
 
 
 textarea.input100 {
-  min-height: 115px;
+  min-height: 100px;
   padding-top: 14px;
   padding-bottom: 13px;
 }

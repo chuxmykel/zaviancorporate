@@ -11,10 +11,11 @@
 		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
-		</head>
+	</head>
 
-		<body>
+	<body>
 		<div class="header">
 			<img src="img/logo.jpg" alt="zavian corporate logo" style="height:100px; width:100px; float left; margin-top:10px; margin-left:20px;">
 
@@ -95,9 +96,10 @@
 					<fieldset>
 						<legend>Service:</legend>
 						<div class="validate-input" data-validate = "Select a service">
-							<span class="label-input100"><label>Service Required?:</label></span>
+							<span class="label-input100"><label>Service Required:</label></span>
 							<div class="service-select"	style="width:200px; height: 35px;">
-								<select form="serviceform">
+								<select name= "services" form="serviceform" onchange="changeServiceText(this.form.services)">
+									<option value="default">Select a service</option>
 									<option value="service1">Service 1</option>
 									<option value="service2">Service 2</option>
 									<option value="service3">Service 3</option>
@@ -106,6 +108,14 @@
 									<option value="service6">Service 6</option>
 									<option value="service7">Service 7</option>
 								</select>
+							</div>
+						</div>
+						<br><br>
+						<div>
+							<div class="wrap-input100 validate-input" data-validate="Phone is required">
+								<span class="label-input100"><label for="complemento">Service Required2222:</label></span>
+								<textarea class="input100" id="complemento" type="text" name="complemento" placeholder="Enter service required"></textarea>
+								<span class="focus-input100"></span>
 							</div>
 						</div>
 						<div class="container-contact100-form-btn">
